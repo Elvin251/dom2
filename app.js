@@ -18,10 +18,7 @@
 //     let button = document.querySelector("button");
     
 //     button.addEventListener("click",salamla);
-let a= 0;
-let b= 0;
-let c=0;
-let d=0;
+
 function addParameters() {
     let input = prompt("Enter width, height, background color, text color");
     if (!input) return;
@@ -36,10 +33,7 @@ function addParameters() {
     document.getElementById("height").innerText = height+"px";
     document.getElementById("bgColor").innerText = bgColor;
     document.getElementById("textColor").innerText = textColor;
-    a=width+"px";
-    b=height+"px";
-    c= bgColor;
-    d= textColor;
+   
 }
 
 
